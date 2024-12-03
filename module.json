@@ -1,0 +1,39 @@
+{
+  "id": "legacy-pbta",
+  "title": "Legacy: Life Among the Ruins (PbtA)",
+  "version": "0.0.1-beta",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pbta",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Unofficial add-on for Legacy support.",
+  "authors": [
+    {
+      "name": "Groove Wizard",
+      "discord": "dagroovewizard",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "moves",
+      "label": "Moves",
+      "path": "packs/moves",
+      "type": "Item",
+      "system": "pbta",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
