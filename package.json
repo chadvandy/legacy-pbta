@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#main"
+  },
+  "dependencies": {
+    "eslint": "^9.19.0"
+  }
+}

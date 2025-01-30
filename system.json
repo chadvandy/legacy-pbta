@@ -6,15 +6,6 @@
     "minimum": "12",
     "verified": "12"
   },
-  "relationships": {
-    "systems": [
-      {
-        "id": "pbta",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  },
   "description": "Unofficial add-on for Legacy support.",
   "authors": [
     {
@@ -23,6 +14,7 @@
       "flags": {}
     }
   ],
+  "esmodules": ["legacy.mjs"],
   "packs": [
     {
       "name": "moves",
@@ -35,5 +27,10 @@
         "ASSISTANT": "OWNER"
       }
     }
-  ]
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": {}
+    }
+  }
 }

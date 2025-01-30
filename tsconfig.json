@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "types": ["fvtt-types"],
+      "module": "ES2020",
+      "moduleResolution": "bundler",
+      "strict": true,
+      "allowJs": true,
+      "outDir": "module"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules/*"]
+  }
