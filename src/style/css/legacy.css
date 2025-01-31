@@ -1,0 +1,50 @@
+.legacy.actor .sheet-header .header-right {
+  padding-left: 5px;
+  flex: 0 0 200px;
+  height: 100px;
+}
+.legacy.actor .sheet-header .header-right .class {
+  flex: 1;
+}
+.legacy.actor .sheet-header .header-right .class .click-element {
+  height: 100%;
+}
+.legacy.actor .sheet-header .header-right .class .click-element [data-action=deleteDoc] {
+  flex: 0 0 20px;
+}
+.legacy.actor .sheet-header .header-right .class .label {
+  display: inline-block;
+  line-height: 50px;
+  height: 100%;
+  font-size: var(--font-h3-size);
+}
+.legacy.actor .sheet-header .header-right .class .label.unfilled {
+  width: 100%;
+  text-align: center;
+}
+.legacy.actor .sheet-header .header-right .victories {
+  flex: 0 0 30px;
+  line-height: 30px;
+}
+.legacy.actor .sheet-header .header-right .victories input {
+  height: 30px;
+  width: 40px;
+}
+.legacy.actor .sheet-header .header-right .item-img {
+  display: inline-block;
+  border: none;
+  height: 36px;
+  flex: 0 0 36px;
+}
+.legacy.actor .sheet-header .header-right .monster-data {
+  gap: 3px;
+}
+.legacy.actor .sheet-header .header-right .monster-data .actor-source {
+  margin-top: 5px;
+  font-family: var(--font-h6);
+  font-size: var(--font-size-18);
+}
+.legacy.actor .sheet-header .header-right .monster-data .malice {
+  text-align: center;
+  flex: 0 0 40px;
+}

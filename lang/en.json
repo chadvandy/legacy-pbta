@@ -1,3 +1,13 @@
 {
-    "TEST.LOC": "Testing!"
+    "LEGACY": {
+        "Sheet": {
+            "Labels": {
+                "Character": "Legacy Character Sheet",
+                "Family": "Legacy Family Sheet",
+                "Faction": "Legacy NPC Family Sheet",
+                "QuickCharacter": "Legacy Quick Character Sheet",
+                "NPC": "Legacy NPC Sheet"
+            }
+        }
+    }
 }

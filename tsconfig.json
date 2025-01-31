@@ -5,8 +5,8 @@
       "moduleResolution": "bundler",
       "strict": true,
       "allowJs": true,
-      "outDir": "module"
+      "outDir": "ts_out"
     },
-    "include": ["src/**/*"],
+    "include": ["module/**/*", "legacy.mjs"],
     "exclude": ["node_modules/*"]
   }

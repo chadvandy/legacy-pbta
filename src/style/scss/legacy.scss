@@ -1,0 +1,7 @@
+// TODO Switch over to the @use system; @import is deprecated!
+
+.legacy {
+  &.actor {
+    @import 'sheets/actor-sheet';
+  }
+}

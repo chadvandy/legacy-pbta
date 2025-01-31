@@ -4,5 +4,9 @@
   },
   "dependencies": {
     "eslint": "^9.19.0"
+  },
+  "scripts": {
+    "build:css": "sass src/style/scss/legacy.scss src/style/css/legacy.css --style=expanded --no-source-map",
+    "build:css:watch": "sass src/style/scss/legacy.scss src/style/css/legacy.css --style=expanded --no-source-map --watch"
   }
 }
