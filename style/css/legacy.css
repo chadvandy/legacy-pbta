@@ -1,0 +1,18 @@
+.legacy.actor .sheet-header .header-right {
+  padding-left: 5px;
+  flex: 0 0 200px;
+  height: 100px;
+}
+.legacy.actor .sheet-header .header-right .class {
+  flex: 1;
+}
+.legacy.actor .sheet-header .header-right .class .label {
+  display: inline-block;
+  line-height: 50px;
+  height: 100%;
+  font-size: var(--font-h3-size);
+}
+.legacy.actor .sheet-header .header-right .class .label.unfilled {
+  width: 100%;
+  text-align: center;
+}

@@ -8,6 +8,16 @@ import * as data from "./src/module/data/_export.mjs";
 import {LEGACY} from "./src/module/config.mjs";
 import * as SYS_CONST from "./src/module/constants.mjs";
 
+// Define global variable to access various portions of the
+// module from anywhere internally.
+globalThis.legacy = {
+    documents,
+    applications,
+    data,
+    CONST: SYS_CONST,
+    CONFIG: LEGACY,
+}
+
 // import { CharacterDataModel } from "./data-models/character.mjs";
 // import { SystemActor } from "./module/documents/character.mjs";
 
@@ -64,6 +74,13 @@ Hooks.once("init", () => {
         types: ["character"],
         makeDefault: true,
         label: "LEGACY.Sheet.Labels.Character",
+    })
+    
+    // Family sheet.
+    Actors.registerSheet(SYS_CONST.systemID, applications.FamilyActorSheet, {
+        types: ["family"],
+        makeDefault: true,
+        label: "LEGACY.Sheet.Labels.Family",
     })
 
     // CONFIG.Actor.dataModels = {

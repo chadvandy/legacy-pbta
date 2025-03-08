@@ -1,0 +1,27 @@
+{{! Stats tab on Family Sheet. }}
+
+{{!-- Create the HTML section that will hold all of the details herein. --}}
+<section class="{{tab.cssClass}}" data-group="primary" data-tab="stats">
+    <fieldset class="flexrow">
+
+        {{!-- TODO Loop through all stats to build their display? --}}
+        {{!-- TODO View/Edit modes? --}}
+
+        {{!-- Stat div block --}}
+
+        {{!-- Hardcode for now, Reach/Grasp/Sleight  --}}
+        <div>
+            <label>{{fields.stats.reach.label}}</label>
+
+            <div class="flexrow">
+                {{!-- {{formGroup
+                systemFields.stats.
+                }} --}}
+            </div>
+        </div>
+
+        <div>
+            <label>{{fields.stats.grasp.label}}</label>
+        </div>
+    </fieldset>
+</section>

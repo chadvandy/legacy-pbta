@@ -8,6 +8,33 @@
                 "QuickCharacter": "Legacy Quick Character Sheet",
                 "NPC": "Legacy NPC Sheet"
             }
+        },
+        "family": {
+            "stats": {
+                "reach": {
+                    "name": "Reach"
+                },
+                "grasp": {
+                    "name": "Grasp"
+                },
+                "sleight": {
+                    "name": "Sleight"
+                },
+                "mood": {
+                    "name": "Mood"
+                }
+            },
+            "expendable": {
+                "data": {
+                    "name": "Data"
+                },
+                "tech": {
+                    "name": "Tech"
+                }
+            },
+            "tabs": {
+                "Stats": "Stats"
+            }
         }
     }
 }
